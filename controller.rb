@@ -3,6 +3,6 @@ require 'nokogiri'
 require 'open-uri'
 load 'models/model.rb'
 
-get '/' do
+get '/index' do
   erb :index
 end
