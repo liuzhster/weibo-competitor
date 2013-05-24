@@ -1,5 +1,8 @@
 require 'sinatra'
-load 'model.rb'
+require 'nokogiri'
+require 'open-uri'
+load 'models/model.rb'
+
 get '/' do
-  Model.test
+  erb :index
 end
